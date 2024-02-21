@@ -1,8 +1,8 @@
 <?php
-$HOST = 'localhost';
-$USER = 'root';
+$HOST = '';
+$USER = '';
 $PASS = '';
-$DBASE = 'sismeta';	
+$DBASE = '';	
 $conn = mysqli_connect($HOST,$USER,$PASS,$DBASE);
 if ($conn->connect_error) {		
 	die("Connection failed: " . $conn->connect_error);
